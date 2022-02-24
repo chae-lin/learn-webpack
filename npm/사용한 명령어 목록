@@ -1,0 +1,17 @@
+node -v
+
+[npm 초기 명령]
+npm init
+npm init -y
+
+[npm을 활용한 라이브러리 설치]
+npm install jquery
+npm install gulp
+npm uninstall gulp
+npm install gulp --global
+    ** gulp설치된 라이브러리 경로 확인 
+    /usr/local/lib/node_modules
+    open .
+    폴더 열림
+npm install vue --save-dev
+    = npm i vue -D
