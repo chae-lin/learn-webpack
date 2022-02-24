@@ -7,6 +7,6 @@ module.exports = {
   output: {
     filename: "main.js",
     path: path.resolve(__dirname, "dist"),
-    // resolve 라는 api를 사용 (경로를 잡아줌)
+    // resolve 라는 경로를 잡아주는 api를 사용
   },
 };
