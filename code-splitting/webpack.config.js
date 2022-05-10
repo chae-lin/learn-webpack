@@ -19,7 +19,7 @@ module.exports = {
         // use: ["style-loader", "css-loader"],
         // 적용할 모듈
         // ex) sass-loader 를 사용할 때
-        // use: ["style-loader", "css-loader", "sass-loader"],
+        //     use: ["style-loader", "css-loader", "sass-loader"],
         use: [{ loader: MiniCssExtractPlugin.loader }, "css-loader"],
       },
     ],
